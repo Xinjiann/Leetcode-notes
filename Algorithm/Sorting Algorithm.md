@@ -56,7 +56,7 @@ public int[] sortArray(int[] nums) {
 
 [leetcode problem 147]()
 
-## Merge Sort 归并排序
+## 3. Merge Sort 归并排序
 思路：分而治之（divide-and-conquer），把原来的数组变成左右两个数组，然后分别进行排序，当左右的子数组排序完毕之后，
 再合并这两个子数组形成一个新的排序数组。整个过程递归进行，当只剩下一个元素或者没有元素的时候就直接返回。
 ```java
@@ -86,7 +86,7 @@ private void mergeSort(int[] nums, int left, int right) {
 时间复杂度：O(nlogn)
 空间复杂度：O(n)
 
-## Quick Sort 快速排序
+## 4. Quick Sort 快速排序
 
 思路：取第一个元素（或者最后一个元素）作为分界点，把整个数组分成左右两侧，左边的元素小于或者等于分界点元素，
 而右边的元素大于分界点元素，然后把分界点移到中间位置，对左右子数组分别进行递归，最后就能得到一个排序完成的数组。当子数组只有一个或者没有元素的时候就结束这个递归过程。
