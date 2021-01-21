@@ -1,5 +1,5 @@
 # Leetcode solutions and ideas
-
+Useful link: [Algorithm visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 ## 1. Data Structure
 - [Array](https://github.com/Xinjiann/Leetcode-notes/blob/main/Data%20Structure/array.md)
 - [String](https://github.com/Xinjiann/Leetcode-notes/blob/main/Data%20Structure/string.md)
