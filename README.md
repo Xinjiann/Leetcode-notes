@@ -7,7 +7,7 @@
 - [Tree](https://github.com/Xinjiann/Leetcode-notes/blob/main/Data%20Structure/tree.md)
 - [Stack](https://github.com/Xinjiann/Leetcode-notes/blob/main/Data%20Structure/stack.md)
 - [Queue](https://github.com/Xinjiann/Leetcode-notes/blob/main/Data%20Structure/queue.md)
-- [Heap](https://github.com/Xinjiann/Leetcode-notes/blob/main/Data%20Structure/head.md)
+- [Heap](https://github.com/Xinjiann/Leetcode-notes/blob/main/Data%20Structure/heap.md)
 
 
 ## 2. Algorithm
