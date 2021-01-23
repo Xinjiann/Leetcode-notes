@@ -11,7 +11,7 @@ Useful link: [Algorithm visualization](https://www.cs.usfca.edu/~galles/visualiz
 
 
 ## 2. Algorithm
-- [Backtracking](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/Sorting%20Algorithm.md)
+- [Backtracking](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/backtracking.md)
 - [Binary Search](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/binary%20search.md)
 - [Breadth First Search](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/breadth%20first%20search.md)
 - [Depth First Search](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/depth%20first%20search.md)
