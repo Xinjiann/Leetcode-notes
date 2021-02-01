@@ -19,8 +19,10 @@ Useful link: [Algorithm visualization](https://www.cs.usfca.edu/~galles/visualiz
 - [Greedy](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/greedy.md)
 - [Two Pointers](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/two%20pointers.md)
 
+- [Sorting Algorithms(Merge Sort, Quck Sort, etc.)](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/Sorting%20Algorithm.md)
+
 ## 3.Others
 
-- [Sorting Algorithm](https://github.com/Xinjiann/Leetcode-notes/blob/main/Algorithm/Sorting%20Algorithm.md)
+
 - [Integer Addition in Array Form](https://github.com/Xinjiann/Leetcode-notes/blob/main/problems/Integer%20addition%20in%20array%20form.md)
  
