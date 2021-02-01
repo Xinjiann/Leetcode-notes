@@ -116,7 +116,7 @@ private void quickSort(int[] nums, int left, int right) {
 
 # Leetcode
 
-## [Kth largest element in the array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+## [1. Kth largest element in the array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 
 Use quic sort to solve the Kth largest problem can stop at when pivot equals to K, which saves time.
 
