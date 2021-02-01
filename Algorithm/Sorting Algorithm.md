@@ -2,7 +2,6 @@
 
 [useful link](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
-[Leetcode Problems](#Leetcode)
 
 ## 1. Bubble Sort 冒泡排序
 思路：遍历数组，两两对比， 大的放后面，保证最大的元素放到队尾，然后保持队尾不变，重新遍历。
@@ -115,4 +114,56 @@ private void quickSort(int[] nums, int left, int right) {
 时间复杂度：O(nlogn)
 空间复杂度：O(logn)
 
-## Leetcode
+# Leetcode
+
+## [Kth largest element in the array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+
+Use quic sort to solve the Kth largest problem can stop at when pivot equals to K, which saves time.
+
+```java
+public class Solution {
+
+    public int findKthLargest(int[] nums, int k) {
+        int len = nums.length;
+        int left = 0;
+        int right = len - 1;
+
+        int target = len - k;
+
+        while (true) {
+            int index = partition(nums, left, right);
+            if (index == target) {
+                return nums[index];
+            } else if (index < target) {
+                left = index + 1;
+            } else {
+                right = index - 1;
+            }
+        }
+    }
+
+    public int partition(int[] nums, int left, int right) {
+        int pivot = nums[left];
+        int j = left;
+        for (int i = left + 1; i <= right; i++) {
+            if (nums[i] < pivot) {
+                // 小于 pivot 的元素都被交换到前面
+                j++;
+                swap(nums, j, i);
+            }
+        }
+        
+        swap(nums, j, left);
+       
+        return j;
+    }
+
+    private void swap(int[] nums, int index1, int index2) {
+        int temp = nums[index1];
+        nums[index1] = nums[index2];
+        nums[index2] = temp;
+    }
+}
+```
+
+
