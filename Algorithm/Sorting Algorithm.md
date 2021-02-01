@@ -2,7 +2,7 @@
 
 [useful link](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
-[Leetcode Problems](#Leetcode&nbspProblems)
+[Leetcode Problems](#Leetcode&nbsp;Problems)
 
 ## 1. Bubble Sort 冒泡排序
 思路：遍历数组，两两对比， 大的放后面，保证最大的元素放到队尾，然后保持队尾不变，重新遍历。
